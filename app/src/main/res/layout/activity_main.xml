@@ -5,6 +5,7 @@
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ff0000"
     tools:context=".MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -27,6 +28,7 @@
 
             <LinearLayout
                 android:id="@+id/head_layout"
+                android:background="#66006600"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
